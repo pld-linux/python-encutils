@@ -3,7 +3,7 @@ Summary:	A collection of helper functions to detect encodings of text files
 Summary(pl.UTF-8):	Kolekcja funkcji wykrywającej kodowanie plików tekstowych
 Name:		python-%{module}
 Version:	0.9
-Release:	1
+Release:	2
 License:	LGPL v2.1
 Group:		Libraries/Python
 Source0:	http://cheeseshop.python.org/packages/source/e/encutils/%{module}-%{version}.zip
