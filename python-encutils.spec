@@ -29,12 +29,12 @@ XHTML, XML, CSS, etc.) pobranych przez HTTP, plik lub ciąg znaków.
 %setup -q -n %{module}-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python setup.py install \
+%py_install \
         --single-version-externally-managed \
 	--optimize=2 \
 	--root $RPM_BUILD_ROOT
